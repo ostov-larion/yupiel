@@ -1,2 +1,2 @@
 # yupiel
-Yupiel is a framework for SWI-Prolog
+Yupiel is a reactive framework for SWI-Prolog
