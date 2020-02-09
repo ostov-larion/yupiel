@@ -3,6 +3,7 @@ Yupiel is a reactive framework for SWI-Prolog.
 
 Synopsis:
 ```prolog
+:- use_module(yupiel).
 data(foo).
 data(Data) => writeln(Data).
 :- data(_) $> data(foobar).
@@ -56,3 +57,11 @@ button{html:Inner} :< This => format(Outer,'<button>~w</button>',[Inner]), This 
 
 object button{id:"btn",html:"test"}. % Now it is button{btn:"btn",html:"test",outer:"<button>test</button>"}
 ```
+
+TODO:
+[x] Basic reactivity 
+[ ] Complete this documentation
+[ ] CommentDoc in yupiel module
+[ ] Functions
+[ ] Template strings
+[ ] Components
