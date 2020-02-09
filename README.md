@@ -50,7 +50,7 @@ Use `:<` in `Head`:
 ```prolog
 point{x:X,y:Y} :< This => writeln(x=X),writeln(y=Y),writeln(full:This).
 
-object point{id:0,x:1,y:1,z:0}. % Prints "x=1","y=1", and "point{id:0,x:1,y:1,z:0}"
+object point{id:0,x:1,y:1,z:0}. % Prints "x=1","y=1", and "full:point{id:0,x:1,y:1,z:0}"
 
 button{html:Inner} :< This => format(Outer,'<button>~w</button>',[Inner]), This $> button{outer:Outer}.
 
