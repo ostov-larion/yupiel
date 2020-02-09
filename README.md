@@ -14,7 +14,7 @@ object button{id:"MyButton",text:"Text in button"}.
 object span{id:"MySpan"}.
 ```
 
-Yupiel add new *Data Transforation Clauses*(DTC), which declares when data mutate.
+Yupiel add new *Data Transforation Clauses*(DTC), which declares when data mutates.
 Syntax: `Head => Body`.
 When `Head` changes, execute `Body`.
 
