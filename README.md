@@ -59,9 +59,10 @@ object button{id:"btn",html:"test"}. % Now it is button{btn:"btn",html:"test",ou
 ```
 
 TODO:
-[x] Basic reactivity 
-[ ] Complete this documentation
-[ ] CommentDoc in yupiel module
-[ ] Functions
-[ ] Template strings
-[ ] Components
+- [x] Basic reactivity 
+- [ ] Complete this documentation
+- [ ] CommentDoc in yupiel module
+- [ ] Functions
+- [ ] Template strings
+- [ ] Components
+- [ ] Make package
